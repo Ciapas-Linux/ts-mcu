@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+body,html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: black;
+  cursor: pointer;
+}
+
+#Canvas {
+  position:absolute;
+	z-index:1;
+	margin: 0;
+  padding: 0;
+  display: block;
+	-webkit-animation: fading 2s ;
+  animation: fading 2s ;
+}
+
+
+/* Here is the animation (keyframes) */
+@keyframes fading {
+  100% { opacity: 1; }
+  0% { opacity: 0; }
+}
